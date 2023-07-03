@@ -165,10 +165,10 @@ body{
 
 	.container{
 		width: 18.5rem;
-		height: 32rem;
+		height: 28rem;
 		margin:auto;
 		padding-top: 25px;
-		margin-top: 10px;
+		margin-top: 40px;
 		background-color: #3a3c3d;
 		border-radius: 5%;
 		box-shadow: 10px 10px 20px #252525;
@@ -187,7 +187,7 @@ body{
 
 	.git svg{
 		position: absolute;
-		margin-left: 79vw;
+		margin-left: 80vw;
 		margin-top: 12vh;
 		background-color: #3a3c3d;
 		border-radius: 10px 0px 0px 10px;
@@ -215,11 +215,13 @@ body{
 	}
 	
 	.description{
-		margin-top: 30px;
+		margin-top: 20px;
 		color: white;
 		font-size: 15px;
 		text-align: center;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 400;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 }
