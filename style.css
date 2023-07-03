@@ -1,0 +1,162 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	background-color: #727374;
+}
+
+.container{
+	width: 35rem;
+	height: 55rem;
+	margin:auto;
+	padding-top: 25px;
+	margin-top: 20px;
+	background-color: #3a3c3d;
+	border-radius: 5%;
+	box-shadow: 10px 10px 20px #252525;
+}
+
+.container h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color:white;
+	text-align: center;
+	margin-block-end: 0em;
+}
+
+.name{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color:white;
+	text-align: center;
+	margin-block-start: 0em;
+}
+
+.description{
+	margin-top: 60px;
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.imag{
+	width: 90%;
+	height: 60%;
+	margin: auto;
+	background-color:#252525;
+	border-radius: 5%;
+}
+
+.imag img{
+	width: 100%;
+	height: 100%;
+}
+
+.lin svg{
+	position: absolute;
+	margin-left: 61vw;
+	margin-top: 1.5vh;
+	background-color: #3a3c3d;
+	border-radius: 0px 0px 0px 15px;
+	fill: white;
+	width: 55px;
+	height: 55px;
+}
+
+.lin svg:hover{
+	fill:#DA0037;
+}
+
+.git svg{
+	position: absolute;
+	margin-left: 61vw;
+	margin-top: 8vh;
+	background-color: #3a3c3d;
+	border-radius: 15px 0px 0px 15px;
+	fill: white;
+	width: 55px;
+	height: 55px;
+}
+
+.git svg:hover{
+	fill:#DA0037;
+}
+
+.description{
+	margin-left:50px;
+	margin-right: 50px;
+}
+
+@media (max-width: 1200px){
+	.lin svg{
+		position: absolute;
+		margin-left: 67vw;
+		margin-top: 1.5vh;
+		background-color: #3a3c3d;
+		border-radius: 0px 0px 0px 15px;
+		fill: white;
+		width: 55px;
+		height: 55px;
+	}
+
+	.git svg{
+		position: absolute;
+		margin-left: 67vw;
+		margin-top: 8vh;
+		background-color: #3a3c3d;
+		border-radius: 15px 0px 0px 15px;
+		fill: white;
+		width: 55px;
+		height: 55px;
+		}
+}
+
+@media (max-width: 992px){
+
+	.lin svg{
+		position: absolute;
+		margin-left: 70vw;
+		margin-top: 1.5vh;
+		background-color: #3a3c3d;
+		border-radius: 0px 0px 0px 15px;
+		fill: white;
+		width: 55px;
+		height: 55px;
+	}
+
+	.git svg{
+		position: absolute;
+		margin-left: 70vw;
+		margin-top: 8vh;
+		background-color: #3a3c3d;
+		border-radius: 15px 0px 0px 15px;
+		fill: white;
+		width: 55px;
+		height: 55px;
+	}
+}
+
+@media (max-width: 768px) {
+	.lin svg{
+		position: absolute;
+		margin-left: 76vw;
+		margin-top: 1.5vh;
+		background-color: #3a3c3d;
+		border-radius: 0px 0px 0px 15px;
+		fill: white;
+		width: 55px;
+		height: 55px;
+	}
+
+	.git svg{
+		position: absolute;
+		margin-left: 76vw;
+		margin-top: 8vh;
+		background-color: #3a3c3d;
+		border-radius: 15px 0px 0px 15px;
+		fill: white;
+		width: 55px;
+		height: 55px;
+	}
+}
