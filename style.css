@@ -160,3 +160,39 @@ body{
 		height: 55px;
 	}
 }
+
+@media (max-width: 568px){
+
+	.container{
+		width: 30rem;
+		height: 50rem;
+		margin:auto;
+		padding-top: 25px;
+		margin-top: 10px;
+		background-color: #3a3c3d;
+		border-radius: 5%;
+		box-shadow: 10px 10px 20px #252525;
+	}
+
+	.lin svg{
+		position: absolute;
+		margin-left: 79vw;
+		margin-top: 1.5vh;
+		background-color: #3a3c3d;
+		border-radius: 0px 0px 0px 15px;
+		fill: white;
+		width: 55px;
+		height: 55px;
+	}
+
+	.git svg{
+		position: absolute;
+		margin-left: 79vw;
+		margin-top: 8.5vh;
+		background-color: #3a3c3d;
+		border-radius: 15px 0px 0px 15px;
+		fill: white;
+		width: 55px;
+		height: 55px;
+	}
+}
